@@ -38,7 +38,7 @@ if(text1.includes("sunny")){
  w_icon.src = "sunny.png"
 }
 else if(text1.includes("mist")){
-    w_icon.src  = "/Beginner/Weather/images/mist.png"
+    w_icon.src  = "./mist.png"
 }
 else if(text1.includes("overcast")){
     w_icon.src  = "/Beginner/Weather/images/overcast.png"
@@ -63,6 +63,7 @@ else{
 }
 
 });
+
 
 
 
