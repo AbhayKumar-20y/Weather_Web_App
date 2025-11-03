@@ -9,7 +9,7 @@ let info = document.getElementById('weather-info');
 
 
 async function getdata(cityvalue) {
- const promise = await fetch(`http://api.weatherapi.com/v1/current.json?key=5a31d212dc31473b89043617252110&q=${cityvalue}&aqi=yes`);
+ const promise = await fetch(`https://api.weatherapi.com/v1/current.json?key=5a31d212dc31473b89043617252110&q=${cityvalue}&aqi=yes`);
  return await promise.json(); 
 }
 
@@ -63,6 +63,7 @@ else{
 }
 
 });
+
 
 
 
