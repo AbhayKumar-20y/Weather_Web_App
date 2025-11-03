@@ -35,7 +35,7 @@ text1 = text1.toLowerCase();
  let w_icon =  document.getElementById("weather-icon");
 
 if(text1.includes("sunny")){
- w_icon.src = "/Beginner/Weather/images/sunny.png"
+ w_icon.src = "sunny.png"
 }
 else if(text1.includes("mist")){
     w_icon.src  = "/Beginner/Weather/images/mist.png"
@@ -63,6 +63,7 @@ else{
 }
 
 });
+
 
 
 
