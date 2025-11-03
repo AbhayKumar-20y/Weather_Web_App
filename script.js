@@ -35,31 +35,31 @@ text1 = text1.toLowerCase();
  let w_icon =  document.getElementById("weather-icon");
 
 if(text1.includes("sunny")){
- w_icon.src = "sunny.png"
+ w_icon.src = "./sunny.png"
 }
 else if(text1.includes("mist")){
     w_icon.src  = "./mist.png"
 }
 else if(text1.includes("overcast")){
-    w_icon.src  = "/Beginner/Weather/images/overcast.png"
+    w_icon.src  = "./overcast.png"
 }
 else if(text1.includes("rain")){
-   w_icon.src  = "/Beginner/Weather/images/rainy-day.png"
+   w_icon.src  = "./rainy-day.png"
 }
 else if(text1.includes("snowy")){
-  w_icon.src  = "/Beginner/Weather/images/snow.png"
+  w_icon.src  = "./snow.png"
 }
 else if(text1.includes("cloudy")){
-   w_icon.src= "/Beginner/Weather/images/clouds.png"
+   w_icon.src= "./clouds.png"
 }
 else if(text1.includes("clear")){
-   w_icon.src= "/Beginner/Weather/images/clear-sky.png"
+   w_icon.src= "./clear-sky.png"
 }
 else if(text1.includes("clear")){
-   w_icon.src= "/Beginner/Weather/images/thunderstorm.png"
+   w_icon.src= "./thunderstorm.png"
 }
 else{
-   w_icon.src= "/Beginner/Weather/images/cloud-server.png"
+   w_icon.src= "./cloud-server.png"
 }
 
 });
