@@ -99,7 +99,7 @@ body {
     margin-top: 30px;
   }
   #city-input, #btn {
-    width: 100%;
+    width: 80%;
     font-size: 15px;
   }
   #weather-icon {
@@ -123,3 +123,4 @@ body {
     font-size: 14px;
   }
 }
+
